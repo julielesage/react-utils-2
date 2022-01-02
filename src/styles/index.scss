@@ -1,0 +1,16 @@
+@import './flexbox/flexbox.scss';
+
+.menu {
+	width : 600;
+	background-color : blueviolet;
+	position:fixed;
+	height: 100vh;
+	z-index: 5;
+}
+
+.wrapper {
+	padding: 0 0 0 100px;
+	display : flex;
+	flex : 1;
+	justify-content: center;
+}
